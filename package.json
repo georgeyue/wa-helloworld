@@ -1,0 +1,23 @@
+{
+  "name": "wa-helloworld",
+  "version": "1.0.0",
+  "description": "Hello World README.md",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/georgeyue/wa-helloworld"
+  },
+  "author": "George Yue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/georgeyue/wa-helloworld/issues"
+  },
+  "homepage": "https://github.com/georgeyue/wa-helloworld",
+  "dependencies": {
+    "hapi": "^8.4.0"
+  }
+}
