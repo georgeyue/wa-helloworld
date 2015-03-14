@@ -1,6 +1,22 @@
-var http = require('http')
-var port = process.env.PORT || 1337;
-http.createServer(function(req, res) {
-  res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Hello World\n');
-}).listen(port);
+var Hapi = require('hapi');
+
+// Create a server with a host and port
+var server = new Hapi.Server();
+var http_port = process.env.PORT || 1337;
+
+server.connection({
+    host: 'localhost',
+    port: http_port
+});
+
+// Add the route
+server.route({
+    method: ['GET'],
+    path:'/',
+    handler: function (request, reply) {
+       reply('Hapi said: Hello World!');
+    }
+});
+
+// Start the server
+server.start();
