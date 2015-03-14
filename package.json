@@ -17,7 +17,15 @@
     "url": "https://github.com/georgeyue/wa-helloworld/issues"
   },
   "homepage": "https://github.com/georgeyue/wa-helloworld",
+  "engines": {
+    "node": "0.10.x"
+  },
   "dependencies": {
     "hapi": "^8.4.0"
-  }
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "hapi"
+  ]
 }
