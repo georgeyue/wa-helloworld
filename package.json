@@ -2,7 +2,7 @@
   "name": "wa-helloworld",
   "version": "0.1.0",
   "description": "Hello World README.md",
-  "main": "index.js",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/georgeyue/wa-helloworld"

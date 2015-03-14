@@ -5,7 +5,7 @@ var server = new Hapi.Server();
 var http_port = process.env.PORT || 5000;
 
 server.connection({
-    host: 'localhost',
+    host: '0.0.0.0',
     port: http_port
 });
 
