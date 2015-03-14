@@ -1,12 +1,8 @@
 {
   "name": "wa-helloworld",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Hello World README.md",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/georgeyue/wa-helloworld"
@@ -18,7 +14,7 @@
   },
   "homepage": "https://github.com/georgeyue/wa-helloworld",
   "engines": {
-    "node": "0.10.x"
+    "node": ">=0.10.x"
   },
   "dependencies": {
     "hapi": "^8.4.0"
